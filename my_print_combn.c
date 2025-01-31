@@ -4,11 +4,6 @@
 ** File description:
 ** task 09
 */
-#include <unistd.h>
-static void my_putchar(char c)
-{
-    write(1, &c, 1);
-}
 
 /*    finds the maximum number composed of n digits in ascending order    */
 /*    ex : n = 4 -> max = 6789    */
